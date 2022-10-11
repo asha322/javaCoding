@@ -30,6 +30,8 @@ public class Solution {
             } catch (Exception e) {
                 System.out.println(e);
             }
+            finally{ System.out.println("hello");
+            }
         }
     }
 }
